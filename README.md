@@ -1,7 +1,6 @@
 ##Data Analysis Project for XYZ
 
 
-
 #Client Description
 #XYZ is a private firm in the U.S. that, due to remarkable growth in the cab industry in recent years and the presence of multiple key players in the market, is considering making an investment in this sector. As #part of their Go-to-Market (G2M) strategy, they want to understand the market before making a final decision.
 
