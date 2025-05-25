@@ -1,29 +1,76 @@
-## Data Analysis Project for XYZ
+# 🚕 Cab Market Investment Analysis for XYZ
 
-### Client Description  
-XYZ is a private firm in the U.S. that, due to remarkable growth in the cab industry in recent years and the presence of multiple key players in the market, is considering making an investment in this sector. As part of their Go-to-Market (G2M) strategy, they want to understand the market before making a final decision.
+This project delivers a complete data analysis to support **XYZ**, a private U.S.-based firm, in evaluating potential investment opportunities in the competitive cab industry. The goal is to generate **actionable insights** from multiple datasets to help the company select the most promising cab company.
 
-### Project Deliverable  
-You have been provided with multiple datasets containing information on two cab companies. Each file represents different aspects of the customer profile. XYZ is interested in actionable insights to help them identify the right company for their investment.
+Developed as part of a business-focused data analysis case, this project demonstrates strong skills in data cleaning, joining multiple datasets, exploratory analysis, and visualization to drive strategic decisions.
 
-The outcome of your delivery will be a presentation to XYZ's executive team, which will be judged based on the quality of your analysis, the visuals provided, and the value of your recommendations and insights.
+---
 
-### Datasets Provided  
-You have been provided with four individual datasets covering the period from January 31, 2016, to December 31, 2018:
+## 🏢 Client Background
 
-- **Cab_Data.csv**: Includes transaction details for the two cab companies.  
-- **Customer_ID.csv**: A mapping table containing a unique identifier that links customer demographic details.  
-- **Transaction_ID.csv**: A mapping table that contains transaction-to-customer mapping and payment mode.  
-- **City.csv**: Contains a list of U.S. cities, their population, and the number of cab users.
+XYZ is exploring an entry into the cab industry, which has experienced remarkable growth and increased competition in recent years. As part of their **Go-to-Market (G2M) strategy**, they seek to understand key market dynamics and customer behavior patterns.
 
-### Analysis Requirements  
+You have been hired to analyze cab operations data and deliver a concise, insight-driven presentation to XYZ's executive team.
 
-- Investigate and understand each dataset.  
-- Review the source documentation.  
-- Understand field names and data types.  
-- Identify relationships across the files.  
-- Perform field/feature transformations.  
-- Determine which files should be joined versus which ones should be appended.  
-- Create master data and explain the relationships.  
-- Identify and remove duplicates.  
-- Conduct additional analyses such as NA value and outlier detection.
+---
+
+## 📁 Datasets Overview
+
+The analysis uses **four datasets** spanning from **January 31, 2016 to December 31, 2018**:
+
+| File Name          | Description |
+|--------------------|-------------|
+| `Cab_Data.csv`         | Transaction details (trip IDs, company, distance, price) |
+| `Customer_ID.csv`      | Mapping table for customer demographics |
+| `Transaction_ID.csv`   | Transaction-to-customer mapping with payment type |
+| `City.csv`             | U.S. cities with population and number of cab users |
+
+---
+
+## 🧩 Objectives & Analysis Requirements
+
+The main goals of the project include:
+
+- Understand and clean each dataset
+- Review field names, types, and data quality
+- Join the datasets to form a **master data table**
+- Detect and remove duplicates and outliers
+- Perform exploratory data analysis (EDA) to uncover insights
+- Support strategic decision-making with compelling visualizations
+
+---
+
+## 🔍 Analytical Steps
+
+### 1. 🧹 Data Preparation
+- Inspected each dataset structure and relationships
+- Standardized column names
+- Removed null values and detected anomalies
+- Merged datasets using common keys (`Transaction ID`, `Customer ID`, etc.)
+
+### 2. 📊 Exploratory Data Analysis
+- Analyzed cab usage across cities, companies, and years
+- Explored customer demographics and payment types
+- Identified top-performing regions and customer segments
+- Analyzed pricing, trip distance, and demand trends
+
+### 3. 📈 Insights & Recommendations
+- Compared performance metrics of the two cab companies
+- Mapped demand distribution by city and population
+- Highlighted revenue patterns and seasonality
+- Proposed investment recommendation based on:
+  - Market share
+  - Revenue growth
+  - Customer behavior
+
+---
+
+## 🧰 Tools & Technologies
+
+- Python (Pandas, NumPy)
+- Matplotlib, Seaborn, Plotly
+- Jupyter Notebook
+- SQL (for joins/queries if applicable)
+- Power BI / Tableau (for executive-level visualizations)
+
+---
